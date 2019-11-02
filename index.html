@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+<nav id="upnav" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a href="#"><img class="navbar-brand" src="img/Les-Films-de-Plein-Air.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav font-weight-bold">
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#films">Films</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#adresse">Contact</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#contact">Reserver</a>
+                </li>
+                <li class="nav-item ml-2">
+                    <a class="nav-link" href="#siteInfo">Info</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<header class="header">
+    <div class="header__overaly"></div>
+
+    <div class="container header__text">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="header__text__h1">L’association « Les Films de Plein Air » a le plaisir de vous annoncer la
+                    projection de films d’auteur au parc Monceau</h1>
+
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<main class="mb-0 pb-0">
+    <section style="background-color: #f8f9fa">
+        <div class="container">
+            <div class="row justify-content-center pt-5 pb-5">
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-desktop icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Gratuit</h2>
+                        <p class="icon-wrapper__p">L’accès aux projections est gratuit et ouvert à tous.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="far fa-images icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Plein Air</h2>
+                        <p class="icon-wrapper__p">Projection de qualite du 5 au 8 août chaque soir, de 18h à
+                            minuit.</p>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-shield-alt icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Place reserve</h2>
+                        <p class="icon-wrapper__p">Formulaire de preinscription afin d’être sûr d’avoir une place
+                            assise</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="films">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="general-heading">Liste de films</h2>
+                </div>
+            </div>
+            <div class="portfolio-grid">
+
+                <div class="row mb-5">
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="1"
+                           data-titre="CARTOUCHE"
+                           data-desc="
+                           SYNOPSIS ET DÉTAILS Tout Public Révolté par la tyrannie de Malichot, le chef de la truanderie, un jeune et habile voleur nommé Dominique brave son autorité. Il sauve sa vie en s’engageant, sous le nom de Cartouche, dans l’armée, où il se lie d’amitié avec La Taupe et La Douceur. Mais les aléas de la gloire militaire conviennent mal au trio qui déserte après s’être emparé de la solde du régiment. Revenu au repaire de Malichot en compagnie d’une charmante bohémienne appelée Vénus, Dominique distribue son butin aux truands qui aussitôt l’acceptent comme chef...">
+                            <img class="portfolio-grid__a__img" src="./img/1.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="3"
+                           data-titre="CARTOUCHE"
+                           data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.">
+                            <img class="portfolio-grid__a__img" src="./img/3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="2b"
+                           data-titre="TRÉSOR"
+                           data-desc="SYNOPSIS ET DÉTAILS
+Jean-Pierre et Nathalie s'aiment depuis quatre ans. Pour fêter cet anniversaire, Jean-Pierre offre à sa compagne un cadeau inattendu, un adorable bulldog anglais de trois mois. Nathalie est folle de joie. C'est décidé : il s'appellera 'Trésor'.Entre elle et l'animal, la relation devient immédiatement fusionnelle. Trésor fait de la chambre à coucher son territoire et y règne en maître, ronfle, bave, investit le lit. Le couple tangue, chavire, au gré des humeurs de ce monstre autoritaire...">
+                            <img class="portfolio-grid__a__img" src="./img/2b.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="4"
+                           data-titre="vdfds"
+                           data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.">
+                            <img class="portfolio-grid__a__img" src="./img/4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="5"
+                           data-titre="CARTOUCHE"
+                           data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.">
+                            <img class="portfolio-grid__a__img" src="./img/5.png" alt="">
+                        </a>
+
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="portfolio-grid__a" data-toggle="modal" data-target="#portfolioModal"
+                           data-name="6"
+                           data-titre="CARTOUCHE"
+                           data-desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.">
+                            <img class="portfolio-grid__a__img" src="./img/6.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" style="background-color: #f8f9fa">
+        <div class="container pb-5 px-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="general-heading">Pré-inscription</h2>
+                </div>
+            </div>
+            <form class="border px-5 py-5">
+                <div class="form-group">
+                    <label for="inputAddress">VOTRE EMAIL</label>
+                    <input type="email" class="form-control" id="inputAddress" placeholder="votrenom@gmail.com">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">NOM</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="John">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">PRENOM</label>
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">VOTRE FILM</label>
+                        <input type="email" class="form-control"  placeholder="choix de votre film">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">NOMBRE PLACES</label>
+                        <input type="number" class="form-control"  placeholder="nombre de places">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Inscription</button>
+            </form>
+        </div>
+    </section>
+    <section style="background-color: #f8f9fa" id="adresse">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <h2 class="general-heading">Contactez-nous</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-map-signs icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Visiter nous</h2>
+                        <p class="icon-wrapper__p">35 Boulevard de Courcelles, 75008 Paris</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-phone icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Appelez-nous</h2>
+                        <p class="icon-wrapper__p">01 64 52 85 51</p>
+                        <p class="icon-wrapper__p"><i class="fab fa-skype"></i>: filmonceau</p>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-envelope icon-wrapper__icon"></i>
+                        <h2 class="icon-wrapper__h2">Contactez-nous</h2>
+                        <p class="icon-wrapper__p">organisateur@filmplainair.com</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="google" class="img-fluid">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.873553136648!2d2.306766315736304!3d48.87968700716085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1572679710465!5m2!1sfr!2sfr"
+                width=100% height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
+
+</main>
+
+<footer class="bg-dark">
+    <section id="footer" class="footer pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer__heading">
+                        <h3 class="footer__heading__h3">TWEETS RECENTS</h3>
+                        <div></div>
+                    </div>
+                    <div class="footer__twitter">
+                        <p class="footer__twitter__meta">
+                            <i class="fab fa-twitter"></i>
+                            <span>
+                  booty, 15.10.2013
+                </span>
+                        </p>
+                        <p class="footer__twitter__post">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est quisquam facilis
+                            perferendis, id velit quaerat <a href="">repellat quod</a>, ex iure, nihil recusandae ad.
+                            Quam incidunt iusto nobis esse vel. Sed.
+                        </p>
+                    </div>
+                    <div class="footer__twitter">
+                        <p class="footer__twitter__meta">
+                            <i class="fab fa-twitter"></i>
+                            <span>
+                  booty, 15.10.2013
+                </span>
+                        </p>
+                        <p class="footer__twitter__post">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. quaerat se vel. Sed.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer__heading">
+                        <h3 class="footer__heading__h3">POSTES RÉCENTS</h3>
+                        <div></div>
+                    </div>
+                    <div class="footer__post">
+                        <p class="footer__post__date">
+                            15.10.2013
+                        </p>
+                        <p class="footer__post__content">
+                            Maecnas et nisl pellentesque, fermentum ante facilisis, aliquet ligula.
+                        </p>
+                    </div>
+                    <div class="footer__post">
+                        <p class="footer__post__date">
+                            15.10.2013
+                        </p>
+                        <p class="footer__post__content">
+                            Maecnas et nisl pellentesque, fermentum ante facilisis, aliquet ligula.
+                        </p>
+                    </div>
+                    <div class="footer__post">
+                        <p class="footer__post__date">
+                            15.10.2013
+                        </p>
+                        <p class="footer__post__content">
+                            Maecnas et nisl pellentesque, fermentum ante facilisis, aliquet ligula.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="footer__heading">
+                        <h3 class="footer__heading__h3">RESTEZ EN CONTACT</h3>
+                        <div>
+                            <div class="social py-4">
+                                <p class="footer__heading__text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. A ab consequatur delectus
+                                    deserunt dicta enim expedita facilis itaque, laboriosam maiores neque nihil numquam
+                                    optio quaerat quia rerum saepe similique tempore?</p>
+                                <ul class="footer__heading__soc">
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-reddit-alien"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-vimeo-v"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-twitter"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-facebook-f"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-google-plus-g"></i>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span>
+                                          <i class="fab fa-pinterest-p"></i>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="site-info" id="siteInfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#upnav"><img src="./img/Les-Films-de-Plein-Air.png" alt="" class="site-info__logo"></a>
+                </div>
+                <div class="col-md-6">
+                    <p class="site-info__text ">
+
+                        <a class="nav-link" href="#films">Films </a>
+
+
+                        <a class="nav-link" href="#adresse">Contact</a>
+
+
+                        <a class="nav-link" href="#contact">Reserver</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<div class="modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Film</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img class="modal-img" src="" alt="">
+                <p class="modal-desc"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/scripts.min.js" charset="utf-8"></script>
+<script>
+    $(document).ready(function () {
+        $('#portfolioModal').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget)
+            var name = button.data('name')
+            var titre = button.data('titre')
+            var desc = button.data('desc')
+
+
+            var modal = $(this)
+            modal.find('.modal-title').text(titre)
+            modal.find('.modal-img').attr("src", "./img/" + name + "-sm.png")
+            modal.find('.modal-desc').text(desc)
+        })
+    });
+</script>
+
+
+</body>
+
+</html>
