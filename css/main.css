@@ -11601,7 +11601,8 @@ body {
       font-size: 4.6875em; }
   .icon-wrapper__h2 {
     padding-top: 4.375em;
-    font-size: 1.25em; }
+    font-size: 1.25em;
+    font-weight: bold; }
 
 .text-block {
   height: 400px;
